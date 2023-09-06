@@ -1,0 +1,39 @@
+@import url("app-css/header-styles.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background: black;
+    color: white;
+    
+}
+
+.row {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+p {
+    max-width: 90%;
+    margin: 10px 0 10px 0;
+    line-height: 1.5rem;
+}
+
+
+/** App Footer styles */
+footer{
+    display: none;
+}
+
+/** Endblock of App Footer styles */

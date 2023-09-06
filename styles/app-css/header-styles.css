@@ -1,0 +1,106 @@
+/** App Header styles */
+header {
+    height: 50px;
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+
+header, button {
+    color: white;
+    background: linear-gradient(to right, red, blue);
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
+}
+
+li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/** Endblock of App Header styles */
+span {
+    text-transform: capitalize;
+    font-size: 48px;
+}
+
+button {
+    width: 150px;
+    height: 30px; 
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+img {
+    background-size: cover;
+}
+
+/** App Main Content styles */
+
+/** Endblock of App Main Content styles */
+
+/** For Mobile Devices -> xs */
+ @media only screen and (max-width:480px) {
+
+    nav {
+        margin-left: 10px;
+        background-color: inherit;
+    }
+
+} 
+
+
+/** For Tablets -> sm */
+@media only screen and (max-width:768px) {
+
+    nav {
+        margin-left: 50px;
+        background-color: inherit;
+    }
+
+}
+
+/** For Desktops -> md */
+@media only screen and (max-width:768px) {
+
+    nav {
+        margin-left: 100px;
+        background-color: inherit;
+    }
+
+}
+
+/** For Large screens, eg. Laptops -> lg: */
+@media only screen and (max-width:1200px) {
+
+    nav {
+        margin-left: 400px;
+        background-color: inherit;
+    }
+
+}
+
+/** For Extra Large Screens -> xlg: */
+@media only screen and (min-width: 1201px) {
+
+    nav {
+        margin-left: 500px;
+        background-color: inherit;
+    }
+
+}
